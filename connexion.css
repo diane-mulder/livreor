@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+
+
+
+
+body {
+   background-image:url("./img/jungle.jpg");
+   background-size: cover;  
+
+}
+.formulaire {
+    background-color: rgb(3, 58, 47);
+    font-family: 'Gruppo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: justify;
+    color: #c1b6a0;
+    align-items: center;
+    line-height: 1;
+    flex: 1;
+    margin:auto;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px; /* espace entre la bordure et le texte */
+    border-radius: 5px; /* arrondi des coins de la bordure */
+    box-shadow: 0 0 5px #023219; /* ombre portée */
+    margin-bottom: 12%;
+}
+
+.connexion .champs{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c1b6a0;
+}
+.submit{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+}
+.connexion .button{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    color: #c2a3a3; /* Couleur du lien déjà cliqué */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-size: large;
+}

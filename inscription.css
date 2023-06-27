@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+
+    
+    
+
+body {
+    background-image:url("./img/montagnes.jpg");
+    background-position: unset;
+     
+}
+.formulaire {
+    background-color: #114959;;
+    font-family: 'Gruppo', sans-serif;
+    display: flex;
+    max-width: 350px;
+    text-align: justify;
+    font-weight: lighter;
+    color: #c1b6a0;
+    align-items: center;
+    line-height: 1.5;
+    flex: 1;
+    margin:auto;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px; /* espace entre la bordure et le texte */
+    border-radius: 5px; /* arrondi des coins de la bordure */
+    box-shadow: 0 0 5px #4a403e; /* ombre portée */
+    margin-bottom: 12%;
+}
+
+.inscription .label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #c1b6a0;
+}
+.inscription .input{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #021114;
+}
+
+.valider{
+    padding-top: 10%;
+    padding-bottom: #c2baa3;
+    background-color: #114959;
+    padding: 12px 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}

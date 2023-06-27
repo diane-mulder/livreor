@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab:wght@100;200;300;400;500;600;700;800;900 & display=swap' );
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    background-color: #114959;
+    justify-content: space-around;
+    align-self: center;
+    padding: 2%;
+    list-style-type: none;
+    color:  #c1b6a0;
+    font-size: 250;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color:  #c1b6a0;
+}
+
+button {
+    display: flex-end;
+    background-color: #114959;
+    color:  #c1b6a0;
+    border-bottom: #c2baa3;
+    padding: 12px 40px;
+    border-radius: 20px;
+    cursor: pointer;   
+    font-size:100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: #063b0f;
+}
+
+
+
+/*MAIN*/
+.presentation {
+    display: flex;
+    justify-content : space-around;
+    color: #c1b6a0;
+    font-size: 20px;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center;
+    line-height: 2em;
+    background-image: url("./img/canoe.jpg");
+    background-size: cover;
+    padding-top: 10px; /* Pour compenser la hauteur de l'en-tête */
+    background-position: right;
+    height: 380px;
+    
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    120% {
+        transform: scale(1);
+    }
+}
+  
+.presentation .paragraphe{
+    border: 0,5px solid rgb(249, 244, 244); /* Définir le style de la bordure */
+    padding: 5px; /* Ajouter un espace à l'intérieur du cadre */
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 0,5); /* Couleur de police transparente */
+    width: 450px; /* Définir la largeur du cadre */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 15%;
+    background-color: rgba(34, 34, 45, 0.7); /* Fond transparent plus foncé */
+    animation: pulse 2s ease-in-out infinite;
+}
+
+
+/*FOOTER*/
+.coordonnees{
+    display: flex;
+    background-color: #0a2f38;
+    justify-content : space-around;
+    color: #c1b6a0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+    background-image: url("./img/footfont.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    padding-top: 15px;
+}
+
